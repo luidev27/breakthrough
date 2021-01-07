@@ -1,0 +1,21 @@
+.gallery {
+  width: 100%;
+  height: auto;
+  .image-grid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+
+    .image-col {
+      display: flex;
+      flex-direction: column;
+      .image-item {
+        margin-bottom: 10px;
+        outline: none;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }  
+}

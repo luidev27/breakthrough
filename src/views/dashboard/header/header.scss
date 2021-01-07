@@ -1,0 +1,14 @@
+.dashboard-header {
+  border-radius: 10px;
+  background-image: linear-gradient(75deg, #e72101, #f65212);
+  box-shadow: 0 0 30px 2px rgba(85,85,85,.29);
+  .left-part-padding {
+    padding: 6% 10% 10%;
+  }
+  .right-part-padding {
+    padding: 8% 10%;
+  }
+  .right-border {
+    border-left: 1px solid rgba(255, 255, 255, .23);
+  }
+}

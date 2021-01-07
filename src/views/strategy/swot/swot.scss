@@ -1,0 +1,48 @@
+@import '../../../assets/variables.scss';
+
+.swot-inner {
+  font-family: Roboto;
+  font-size: 14pt;
+
+  & .row {
+    margin: 0;
+
+    &:first-child{
+      border-bottom: 1px solid #65ceff;
+    }
+  }
+
+  .col {
+    min-width: 215px;
+    padding: 5%;
+
+    &:first-child{
+      border-bottom: 1px solid #65ceff;
+      @media (min-width: $sm) {
+        border-bottom: 0;
+      }
+      @media (min-width: $sm) {
+        border-right: 1px solid #65ceff;
+      }
+    }
+
+  }
+
+  .header, .label {
+    color: #555555;
+  }
+
+  li {
+    position: relative;
+    list-style: none;
+    &:before {
+      content: '\2022';
+      position: absolute;
+      left: -20px;
+      color: #1385c2;
+    }
+  }
+  .description {
+    font-weight: 300;
+  }
+}

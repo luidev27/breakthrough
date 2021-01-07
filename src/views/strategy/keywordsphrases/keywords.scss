@@ -1,0 +1,10 @@
+.keywordsphrases {
+  .row {
+    flex-wrap:nowrap;
+    overflow-x:auto;
+
+    & > .col {
+      min-width: 300px;
+    }
+  }
+}

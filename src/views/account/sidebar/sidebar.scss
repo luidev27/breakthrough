@@ -1,0 +1,17 @@
+@import '../../../assets/variables.scss';
+
+.sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 20px 0 0 20px;
+  a {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+    color: $clr-blue;
+    padding: 0;
+  }
+}

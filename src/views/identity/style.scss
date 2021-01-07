@@ -1,0 +1,27 @@
+@import '../../assets/variables.scss';
+
+.identity {
+  // display: grid;
+  // grid-template-columns: 20% auto;
+  // grid-column-gap: 30px;
+  box-sizing: border-box;
+
+  > div {
+    height: 100%;
+    overflow-y: auto;
+    box-sizing: border-box;
+    // &:first-child {
+    //   @media (max-width: $md) {
+    //     display: none;
+    //   }
+    // }
+  }
+
+  .identity-content {
+    padding: 5% 5% 8%;
+  }
+
+  // @media (max-width: $md) {
+  //   grid-template-columns: 1fr;
+  // }
+}

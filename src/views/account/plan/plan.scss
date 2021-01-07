@@ -1,0 +1,11 @@
+@import '../../../assets/variables.scss';
+
+.plan {
+  width: 100%;
+  &-title {
+    font-weight: 500;
+    font-size: 14pt;
+    color: $clr-blue;
+    text-transform: uppercase;
+  }
+}

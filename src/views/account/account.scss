@@ -1,0 +1,25 @@
+@import '../../assets/variables.scss';
+
+.account-page {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  box-sizing: border-box;
+
+  > div {
+    height: 100%;
+    overflow-y: auto;
+    &:first-child {
+      @media (max-width: $md) {
+        display: none;
+      }
+    }
+  }
+
+  .account-content {
+    padding: 20px;
+  }
+
+  @media (max-width: $md) {
+    grid-template-columns: 1fr;
+  }
+}

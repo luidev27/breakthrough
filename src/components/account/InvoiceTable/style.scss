@@ -1,0 +1,22 @@
+@import '../../../assets/variables.scss';
+
+.invoices-table {
+  background-color: white;
+  border: 1px solid rgba($clr-blue, 0.5);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba($clr-grey, 0.1);
+  transition: box-shadow .2s;
+  .invoice-item {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    color: $clr-grey;
+  }
+  .invoice-item-title {
+    font-weight: 500;
+  }
+  &:hover {
+    border: 1px solid rgba($clr-blue, 1);
+    box-shadow: 5px 5px 10px rgba($clr-grey, 0.2);
+  }
+}

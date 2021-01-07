@@ -1,0 +1,48 @@
+.article-item {
+  width: 100%;
+  .video-article {
+    > p {
+      font-family: 'Roboto';
+      font-size: 10pt;
+      font-weight: 200;
+      color: #999;
+    }
+    .children-content {
+      font-family: 'Roboto';
+      font-size: 14pt;
+      line-height: 1.25;
+      font-weight: 200;
+      color: #555;
+    }
+  }
+  .img-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    > div {
+      &:first-child {
+        width: 100%;
+        > img {
+          width: 100%;
+        }
+      }
+      &:last-child {
+        display: flex;
+        flex-direction: column-reverse;
+        > p {
+          font-family: 'Roboto';
+          font-size: 10pt;
+          font-weight: 200;
+          color: #999;
+        }
+        .children-content {
+          font-family: 'Roboto';
+          font-size: 14pt;
+          line-height: 1.25;
+          font-weight: 200;
+          color: #555;
+        }
+      }
+    }
+  }
+}

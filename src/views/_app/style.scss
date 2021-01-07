@@ -1,0 +1,11 @@
+.aplication-wrapper {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  height: 100vh;
+
+  .application-route-outlet {
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+  }
+}

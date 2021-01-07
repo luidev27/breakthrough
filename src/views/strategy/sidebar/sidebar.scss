@@ -1,0 +1,20 @@
+@import '../../../assets/variables.scss';
+
+.bg-sidebar {
+  min-height: calc(100vh - 56px);
+  height: 100%;
+  text-align: center;
+  background-color: aliceblue;
+  display: none;
+
+  // @media (min-width: #{$md + 1px}) {
+  //   display: block;
+  //   width: 300px;
+  // }
+}
+
+.sidebar-tree {
+  padding-top: 16px;
+  padding-left: 16px;
+  text-align: left;
+}

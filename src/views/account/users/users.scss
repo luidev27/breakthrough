@@ -1,0 +1,11 @@
+@import '../../../assets/variables.scss';
+
+.users {
+  width: 100%;
+  &-title {
+    font-size: 14pt;
+    font-weight: 500;
+    color: $clr-blue;
+    text-transform: uppercase;
+  }
+}

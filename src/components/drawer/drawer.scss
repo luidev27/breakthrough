@@ -1,0 +1,60 @@
+.drawer {
+  position:absolute;
+  z-index:1030;
+  top:0;
+  font-weight: 300;
+  color:#555555;
+
+  header {
+    display:flex;
+    position:sticky;
+    background:#08f;
+    color:#fff;
+    padding:1em;
+    top:0;
+    z-index:1000;
+
+    h4 {margin:0}
+  }
+
+  h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 700;
+  }
+
+  label {
+    display: block;
+  }
+
+  .background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #0008;
+  }
+
+  .inner {
+    position:fixed;
+    transition:right 0.2s;
+    height:100vh;
+    background:#fff;
+  }
+
+  .infobox {
+    border-radius: 5px;
+    border: 1px solid rgba(4,167,216,.2);
+    box-shadow: 3px 8px 20px rgba(50,50,50,.05);
+    transition: box-shadow .2s;
+    overflow: auto;
+
+    &:hover {
+      border: 1px solid rgba(4,167,216,.7);
+      box-shadow: 4px 9px 20px rgba(50,50,50,.1);
+    }
+
+    // ul { padding: 1em; }
+    li {
+      padding: 0.5em;
+      svg { margin-right: 0.5em; }
+    }
+  }
+}

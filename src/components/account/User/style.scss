@@ -1,0 +1,32 @@
+@import '../../../assets/variables.scss';
+
+.user {
+  width: 100%;
+  &-img {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba($clr-grey, 0.4);
+    border-radius: 50%;
+    > svg {
+      position: absolute;
+      left: 25%;
+      top: 25%;
+      width: 50% !important; 
+      height: 50%;
+      color: white;
+    }
+  }
+  &-name {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1;
+    color: $clr-grey;
+    word-wrap: break-word;
+  }
+}

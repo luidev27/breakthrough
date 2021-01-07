@@ -1,0 +1,33 @@
+.logo-edit {
+  &-header {
+    width: 100%;
+    height: 56px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 56px;
+    padding-left: 10px;
+    color: white;
+    background-color: #007bff;
+  }
+  &-content {
+    width: 100%;
+    height: calc(100vh - 56px);
+    overflow: auto;
+    padding: 10px 10px 0;
+    h2 {
+      color: #555;
+      font-family: 'Roboto';
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .logo-item, .do-not-item {
+      color: #555;
+      margin-bottom: 10px;
+      .input-group {
+        margin-bottom: 3px;
+      }
+    }
+  }
+}
